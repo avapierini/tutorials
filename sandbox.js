@@ -65,3 +65,66 @@ let score='100'
 let result= Boolean('0');
 
 console.log(result,typof result)
+
+// for loops
+
+//for(let i = 0); i < 5;i++){
+//console.log('in loop:',i)
+  
+//}
+//console.log('loop finished');
+
+const names=[ 'Shaun','Mario','Luigi'];
+
+for(let i = 0;i < names.length;i++){
+//console.log(names[i]);
+  //let html= '<div>${names[i]</div>';
+  console.log(html);
+}
+//while loops
+
+for(let i=0; i < 5; i++){
+  console.log('in loop:',i);
+  
+}
+//if statements
+//const age = 25
+
+//if (age > 20){
+//console.log('You are over 20 years old')
+
+//}
+
+//cost ninjas=['Shaun', 'Ryu', 'chun-li','Yoshi'];
+
+//if(ninjas.length > 4)
+
+//console.log(" Thats alot of ninjas")
+
+//}
+
+const pasword='pass';
+ if(password.length >=8){
+  console.log('That password is long enough!');
+ }
+//logical operators - OR|| and AND &&
+
+const password= 'p@ss'
+if(password.length >= 12)
+  console.log('that password is mighty strong');
+} else if(password.length >= 8){
+console.log('that password is long enough');
+}else {
+  console.log('that password is not long enough');
+}
+//logical NOT(!)
+
+let user=false;
+
+if(user)=false;
+
+if(!user){
+  console.log
+  
+}
+console.log(true);
